@@ -18,7 +18,6 @@ from dataset_livecell import SAMDataset
 dataset_path = '../datasets/CellPose-train/'
 img_path = dataset_path + 'imgs.npy'
 ann_path = dataset_path + 'dist_maps.npy'
-weight_path = dataset_path + 'wms.npy'
 
 sam_model = 'facebook/sam-vit-base'
 output_path = '../checkpoints/samcell'
