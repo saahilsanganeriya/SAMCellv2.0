@@ -13,9 +13,9 @@ from torch import nn
 
 from model import FinetunedSAM
 from utils import lr_warmup, init_wandb, log_wandb
-from dataset_livecell import SAMDataset
+from SAMDataset import SAMDataset
 
-dataset_path = '../datasets/CellPose-train/'
+dataset_path = '../dataset_processing/CellPose-train'
 img_path = dataset_path + 'imgs.npy'
 ann_path = dataset_path + 'dist_maps.npy'
 
