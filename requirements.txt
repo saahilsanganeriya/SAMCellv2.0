@@ -40,8 +40,8 @@ safetensors==0.4.1
 six==1.16.0
 sympy==1.12
 tokenizers==0.15.0
-torch==2.1.1
-torchvision==0.16.1
+#torch==2.1.1
+#torchvision==0.16.1
 tqdm==4.66.1
 transformers==4.36.0
 #triton==2.1.0

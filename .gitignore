@@ -7,3 +7,5 @@ src/wandb
 dataset_processing/CellPose-train
 samcell1.0-Cellpose-cyto
 samcell1.0-livecell
+samcell1.0-livecell/pytorch_model.bin
+samcell1.0-Cellpose-cyto/pytorch_model.bin

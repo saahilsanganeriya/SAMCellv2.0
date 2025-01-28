@@ -40,5 +40,5 @@ class FinetunedSAM():
     def get_model(self):
         return self.model
     
-    def load_weights(self, weight_path):
-        self.model.load_state_dict(torch.load(weight_path))
+    def load_weights(self, weight_path, map_location=None):
+        self.model.load_state_dict(torch.load(weight_path, map_location=map_location))
